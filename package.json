@@ -2,8 +2,9 @@
   "name": "galaxi-bot",
   "version": "1.0.0",
   "description": "A discord bot used in the GalaxiGamers Discord server. ",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
+    "dev": "nodemon ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,9 +22,11 @@
   },
   "homepage": "https://github.com/EvanBuschor/galaxi-bot#readme",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
-    "eslint": "^7.14.0"
+    "eslint": "^7.14.0",
+    "nodemon": "^2.0.6"
   }
 }
