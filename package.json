@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/EvanBuschor/galaxi-bot/issues"
   },
-  "homepage": "https://github.com/EvanBuschor/galaxi-bot#readme"
+  "homepage": "https://github.com/EvanBuschor/galaxi-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0"
+  }
 }
